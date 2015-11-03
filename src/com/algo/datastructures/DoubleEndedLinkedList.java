@@ -1,7 +1,6 @@
 package com.algo.datastructures;
 
 public class DoubleEndedLinkedList extends SimpleLinkedList{
-	//public Link first;
 	public Link last;
 	
 	public DoubleEndedLinkedList(){

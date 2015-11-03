@@ -54,6 +54,9 @@ public class SimpleLinkedList {
 	
 	public void displayList(){
 		Link current = first;
+		if(isEmpty()){
+			System.out.println("Linked list is empty");
+		}
 		while(current != null){
 			current.displayLink();
 			current = current.next;
